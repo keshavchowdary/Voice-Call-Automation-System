@@ -8,8 +8,8 @@ app.use(express.json());
 const { SOURCE, DESTINATION } = require('./phone-numbers');
 
 const PORT = 5436;
-const PLIVO_AUTH_ID = 'MAODY4Y2QZODA2ZDBJYZ';
-const PLIVO_AUTH_TOKEN = 'MmExNWUwYjE3OGRjOTA3ZjYwMmFlMGEwZGRmMjZl';
+const PLIVO_AUTH_ID = '';
+const PLIVO_AUTH_TOKEN = '';
 
 
 const plivoClient = new plivo.Client(PLIVO_AUTH_ID, PLIVO_AUTH_TOKEN);
